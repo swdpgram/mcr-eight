@@ -20,7 +20,6 @@ export function DataProvider({ children }) {
     <DataContext.Provider value={{ 
       habit, 
       setHabit, 
-      // habitHandler, 
       initialHabitDetailsState }}>
       {children}
     </DataContext.Provider>
