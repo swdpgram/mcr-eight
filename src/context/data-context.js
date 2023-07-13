@@ -14,10 +14,14 @@ export function DataProvider({ children }) {
 
   const [habit, setHabit] = useState(initialHabitDetailsState);
 
-  const habitHandler = (event) => {};
+  // const habitHandler = (event) => {};
 
   return (
-    <DataContext.Provider value={{ habit, setHabit, habitHandler, initialHabitDetailsState }}>
+    <DataContext.Provider value={{ 
+      habit, 
+      setHabit, 
+      // habitHandler, 
+      initialHabitDetailsState }}>
       {children}
     </DataContext.Provider>
   );
